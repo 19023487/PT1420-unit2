@@ -1,8 +1,6 @@
 // alert("Hello world"); 
 function processForm(){
-	var name;
-	var message;
-	var content;
+	var name
 	name = document.getElementById("name");
 	message = document.getElementById("message");
 	content = document.getElementById("output");
@@ -12,10 +10,8 @@ function processForm(){
 	//content.innerHTML = "Hello " + name.value + " your message is: " + message.value;
 	content.innerHTML = "<div>Hello my name is " + name.value;
 	
-	content.innerHTML += " and you message is" + message.value;
-	content.innerHTML += " and more stuff";
-	content.innerHTML += " yes.. even more</div>";
-	content.innerHTML += "<div>and finally even more stuff!!</div>";
+	content.innerHTML += " Chris Jackson" + message.value;
+	
 	
 	
 }	
